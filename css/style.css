@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #fafafa;
+}
+
+header {
+  background-color: #2774dc;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 60px;
+}
+
+/*Logotipo*/
+.logo {
+  width: 150px;
+}
+
+nav a {
+  margin: 15px;
+}
+
+* a {
+  text-decoration: none;
+  color: #e9b92a;
+}
+
+/*Contenedor principal*/
+.altura {
+  height: calc(100vh - 120px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2774dc;
+  width: 100vw;
+  height: 60px;
+  color: #fafafa;
+}
