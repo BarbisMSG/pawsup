@@ -38,6 +38,10 @@ nav a {
   color: #e9b92a;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
 p {
   font-size: 18px;
   text-align: center;
@@ -131,6 +135,10 @@ h2 {
 /*Img del final*/
 .imgFondo {
   width: 300px;
+}
+
+span {
+  margin-right: 10px;
 }
 
 footer {
