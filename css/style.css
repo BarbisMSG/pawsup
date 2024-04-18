@@ -16,6 +16,11 @@ header {
   box-shadow: 0px 8px 8px 8px rgba(0, 0, 0, 0.1);
 }
 
+* li {
+  text-decoration: none;
+  list-style: none;
+}
+
 /*Logotipo*/
 .logo {
   width: 150px;
@@ -34,7 +39,8 @@ nav a {
 }
 
 p {
-  font-size: 20px;
+  font-size: 18px;
+  text-align: center;
 }
 
 /*Titulos de las secciones*/
@@ -53,7 +59,7 @@ h2 {
   justify-content: center;
   align-items: center;
   background-color: #55bcd2;
-  margin-top: 30px;
+  margin-top: 50px;
   color: white;
 }
 
@@ -66,6 +72,15 @@ h2 {
   width: 600px;
 }
 
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Contenedor de las secciones*/
 .contenedor h2 {
   margin-top: 40px;
 }
@@ -100,13 +115,31 @@ h2 {
   transform: scale(0.9);
 }
 
+/*Este es el contenedor previo al footer*/
+.fondo {
+  background-color: #55bcd2;
+  height: 400px;
+}
+
+.row {
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  color: #fafafa;
+}
+
+/*Img del final*/
+.imgFondo {
+  width: 300px;
+}
+
 footer {
   margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #55bcd2;
+  background-color: #5ea7b3;
   width: 100vw;
   height: 60px;
   color: #fafafa;
