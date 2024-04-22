@@ -35,7 +35,7 @@ nav a {
   margin-right: 30px;
   font-size: 15px;
   text-decoration: none;
-  color: #e9b92a;
+  color: #3a589b;
 }
 
 nav a:hover {
@@ -62,9 +62,9 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #55bcd2;
+  background-color: #3a589b;
   margin-top: 50px;
-  color: white;
+  color: #fafafa;
 }
 
 .altura h1 {
@@ -73,7 +73,7 @@ h2 {
 
 /*Img tres perritos*/
 .portada {
-  width: 600px;
+  width: 800px;
 }
 
 .contenedor {
@@ -121,7 +121,7 @@ h2 {
 
 /*Este es el contenedor previo al footer*/
 .fondo {
-  background-color: #55bcd2;
+  background-color: #3a589b;
 }
 
 .row {
@@ -146,7 +146,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #5ea7b3;
+  background-color: #729fbf;
   width: 100vw;
   height: 60px;
   color: #fafafa;
@@ -159,6 +159,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-family: "Roboto", sans-serif;
     overflow-x: hidden;
     overflow-y: auto;
@@ -205,7 +206,7 @@ footer {
   }
 
   .altura img {
-    width: 350px;
+    width: 250px;
   }
 
   .fondo {
