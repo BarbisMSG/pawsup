@@ -23,7 +23,8 @@ header {
 
 /*Logotipo*/
 .logo {
-  width: 150px;
+  width: 60px;
+  /*width: 150px;*/
 }
 
 /*Menu de enlaces en el Header*/
@@ -131,9 +132,16 @@ h2 {
   color: #fafafa;
 }
 
+.col {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /*Img del final*/
 .imgFondo {
-  width: 300px;
+  width: 150px;
+  /*width: 300px;*/
+  margin-bottom: 10px;
 }
 
 span {
@@ -175,7 +183,7 @@ footer {
   }
 
   .logo {
-    width: 80px;
+    width: 60px;
   }
 
   h1 {
@@ -225,7 +233,8 @@ footer {
   }
 
   .imgFondo {
-    width: 200px;
+    width: 100px;
+    /* width: 200px;*/
   }
 
   footer {
