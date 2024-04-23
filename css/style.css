@@ -97,7 +97,6 @@ h2 {
 /*Contenedor de las cards*/
 .contenedorServicios {
     display: flex;
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
@@ -158,10 +157,9 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #729fbf;
     width: 100vw;
     height: 60px;
-    color: #fafafa;
+    color: #333;
 }
 
 /*Responsive*/
@@ -212,7 +210,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #55bcd2;
+        background-color: #3a589b;
         margin-top: 30px;
         color: white;
     }
@@ -222,7 +220,7 @@ footer {
     }
 
     .carousel-inner {
-        width: 400px;
+        width: 300px;
     }
 
     .fondo {
@@ -242,7 +240,6 @@ footer {
 
     .imgFondo {
         width: 100px;
-        /* width: 200px;*/
     }
 
     footer {
