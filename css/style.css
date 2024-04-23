@@ -43,6 +43,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/*Configuración para todos los p que estne por fuera de las cards*/
 p {
     font-size: 18px;
     text-align: center;
@@ -73,14 +74,12 @@ h2 {
     font-size: 35px;
 }
 
-.portada {
-    width: 650px;
-}
-
+/*Tamaño del carrousel*/
 .carousel-inner {
     width: 800px;
 }
 
+/*Contenedor de las secciones*/
 .contenedor {
     display: flex;
     flex-direction: column;
@@ -89,7 +88,6 @@ h2 {
     align-items: center;
 }
 
-/*Contenedor de las secciones*/
 .contenedor h2 {
     margin-top: 40px;
 }
@@ -147,6 +145,7 @@ h2 {
     margin-bottom: 10px;
 }
 
+/*Span para las img open/closed*/
 span {
     margin-right: 10px;
 }
@@ -182,6 +181,7 @@ footer {
         flex-direction: row;
         align-items: center;
         font-size: 13px;
+        margin-right: 5px;
     }
 
     .logo {
@@ -213,14 +213,27 @@ footer {
         background-color: #3a589b;
         margin-top: 30px;
         color: white;
+        margin-left: 10px;
     }
-
-    .altura img {
-        width: 250px;
+    .portada {
+        width: 300px;
     }
 
     .carousel-inner {
         width: 300px;
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .contenedor p {
+        text-align: center;
+        font-size: 15px;
     }
 
     .fondo {
@@ -228,6 +241,8 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
+        margin-left: 10px;
     }
 
     .fondo h2 {
