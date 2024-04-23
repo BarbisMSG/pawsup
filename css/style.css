@@ -73,6 +73,10 @@ h2 {
     font-size: 35px;
 }
 
+.portada {
+    width: 650px;
+}
+
 .carousel-inner {
     width: 800px;
 }
