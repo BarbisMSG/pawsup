@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #fafafa;
+    background-color: #3a589b;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -36,7 +36,7 @@ nav a {
     margin-right: 30px;
     font-size: 15px;
     text-decoration: none;
-    color: #3a589b;
+    color: #fafafa;
 }
 
 nav a:hover {
@@ -65,9 +65,9 @@ h2 {
     justify-content: center;
     align-items: center;
     align-content: center;
-    background-color: #3a589b;
-    margin-top: 50px;
-    color: #fafafa;
+    background-color: #fff;
+    margin-top: 100px;
+    color: #333;
 }
 
 .altura h1 {
@@ -75,9 +75,9 @@ h2 {
     font-family: "Open Sans", sans-serif;
 }
 
-/*Tamaño del carrousel*/
-.carousel-inner {
-    width: 800px;
+/*Img abajo del h1*/
+.portada {
+    width: 500px;
 }
 
 /*Contenedor de las secciones*/
@@ -90,7 +90,7 @@ h2 {
 }
 
 .contenedor h2 {
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 /*Contenedor de las cards*/
@@ -181,8 +181,8 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
-        font-size: 13px;
-        margin-right: 5px;
+        font-size: 15px;
+        margin-right: 20px;
     }
 
     .logo {
@@ -205,23 +205,17 @@ footer {
     }
 
     .altura {
-        height: 100vh;
+        height: 50vh;
         width: 100vw;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
-        background-color: #3a589b;
-        margin-top: 30px;
-        color: white;
-        margin-left: 10px;
+        background-color: #fff;
+        color: #333;
     }
     .portada {
-        width: 300px;
-    }
-
-    .carousel-inner {
-        width: 300px;
+        width: 200px;
     }
 
     .contenedor {
@@ -243,7 +237,6 @@ footer {
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-left: 10px;
     }
 
     .fondo h2 {
@@ -256,6 +249,12 @@ footer {
 
     .imgFondo {
         width: 100px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 
     footer {
