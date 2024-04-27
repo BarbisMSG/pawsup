@@ -23,8 +23,18 @@ header {
 
 /*Logotipo*/
 .logo {
-    width: 70px;
+    width: 60px;
     /*width: 150px;*/
+}
+
+button {
+    border-radius: 8px;
+    border-color: #3a589b;
+    margin-left: 5px;
+}
+
+button:hover {
+    transform: scale(1.1);
 }
 
 /*Menu de enlaces en el Header*/
@@ -65,14 +75,16 @@ h2 {
     justify-content: center;
     align-items: center;
     align-content: center;
+    justify-content: flex-end;
     background-color: #fff;
     margin-top: 100px;
     color: #333;
 }
 
-.altura h1 {
-    font-size: 35px;
+h1 {
+    font-size: 30px;
     font-family: "Open Sans", sans-serif;
+    color: #fafafa;
 }
 
 /*Img abajo del h1*/
@@ -177,6 +189,14 @@ footer {
         padding: 0;
     }
 
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        justify-content: flex-end;
+    }
+
     nav a {
         display: flex;
         flex-direction: row;
@@ -186,16 +206,22 @@ footer {
     }
 
     .logo {
-        width: 70px;
+        width: 60px;
+    }
+
+    button {
+        border-radius: 8px;
+        border-color: #3a589b;
+        margin-left: 5px;
     }
 
     h1 {
         text-align: center;
-        font-size: 25px;
+        font-size: 18px;
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 17px;
         margin-top: 10px;
     }
 
