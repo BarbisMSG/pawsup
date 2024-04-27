@@ -202,8 +202,8 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
-        font-size: 15px;
-        margin-right: 20px;
+        font-size: 12px;
+        margin-right: 10px;
     }
 
     .logo {
