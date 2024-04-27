@@ -21,12 +21,7 @@ header {
     list-style: none;
 }
 
-/*Logotipo*/
-.logo {
-    width: 60px;
-    /*width: 150px;*/
-}
-
+/*Dentro de este btn esta el logo*/
 button {
     border-radius: 8px;
     border-color: #3a589b;
@@ -35,6 +30,12 @@ button {
 
 button:hover {
     transform: scale(1.1);
+}
+
+/*Logotipo*/
+.logo {
+    width: 60px;
+    /*width: 150px;*/
 }
 
 /*Menu de enlaces en el Header*/
@@ -230,6 +231,7 @@ footer {
         font-size: 15px;
     }
 
+    /*Se agrega margin-top para que esté más pegado en Header en versión mobile*/
     .altura {
         height: 50vh;
         width: 100vw;
@@ -239,6 +241,7 @@ footer {
         align-items: center;
         background-color: #fff;
         color: #333;
+        margin-top: 10px;
     }
     .portada {
         width: 200px;
