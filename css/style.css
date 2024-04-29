@@ -28,6 +28,8 @@ h1 {
     font-size: 30px;
     color: #333;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 2px;
 }
 
 /*Dentro de este btn esta el logo*/
@@ -86,9 +88,13 @@ h2 {
     align-items: center;
     align-content: center;
     justify-content: flex-end;
-    background-color: #fff;
+    /*
+    background-color: #fff;*/
     margin-top: 50px;
     color: #333;
+    background-image: url("../img/patitas.webp");
+    background-size: 300px;
+    background-repeat: round;
 }
 
 /*Img abajo del h1*/
@@ -252,7 +258,7 @@ footer {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        background-color: #fff;
+
         color: #333;
         /* margin-top: 10px;*/
     }
