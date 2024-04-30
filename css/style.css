@@ -81,25 +81,17 @@ h2 {
 
 /*Contenedor principal*/
 .altura {
-    height: calc(100vh - 120px);
+    height: calc(100vh - 140px);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    align-content: center;
-    justify-content: flex-end;
-    /*
-    background-color: #fff;*/
     margin-top: 50px;
     color: #333;
-    background-image: url("../img/patitas.webp");
-    background-size: 300px;
-    background-repeat: round;
 }
 
 /*Img abajo del h1*/
 .portada {
-    width: 500px;
+    width: 900px;
 }
 
 /*Contenedor de las secciones*/
